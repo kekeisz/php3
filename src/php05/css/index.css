@@ -1,0 +1,42 @@
+.content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+
+.content__text {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.search-form__select {
+    margin-right: 30px;
+    padding: 5px 15px;
+    width: 350px;
+    height: 100%;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    appearance: none;
+}
+
+.search-form__button {
+    margin: auto 0;
+    height: 100%;
+    width: 130px;
+}
+
+.search-form__button-submit {
+    background: #000;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
